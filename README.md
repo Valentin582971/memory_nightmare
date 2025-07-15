@@ -1,5 +1,5 @@
 # memory_nightmare    
-Crash a friend PC by filling up his RAM !  
+Crash a friend PC by filling up his RAM ! (Work on my laptop with 16GB DDR4 2666, but not on my Desktop with 32GB DDR5 6000MHz, result may vary depending on the computer)  
 You can compile-it by using the command : gcc -std=c2x '.\Memory nightmare.c' -omemory_nightmare  
 Then execute the executable (test with valgrind could be funny 😅)  
 (c2x is needed because of nullptr, if you don't have it, you will need to add #define nullptr NULL)  
